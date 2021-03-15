@@ -8,7 +8,7 @@ namespace HRBerryAutomationTests
     public class LoginFeature : LoginSteps
     {
         [TestMethod]
-        public void Login_with_valid_user_id_and_password()
+        public void Login_with_valid_user_id_and_password_successfully()
         {
             this.Given(_ => _.I_launch_HR_Berry_Url())
                 .When(_ => _.I_login_with_valid_user_name_and_password())

@@ -13,7 +13,7 @@ namespace HRBerryAutomationTests.Tests
     {
         public static IWebDriver driver = new ChromeDriver();
         public LoginScreenObjects loginScreenObjects = new LoginScreenObjects(driver);
-        internal void I_launch_HR_Berry_Url()
+        internal void I_launch_HR_Berry_application_Url()
         {
             loginScreenObjects.LaunchHRBerry();
         }

@@ -10,7 +10,7 @@ namespace HRBerryAutomationTests
         [TestMethod]
         public void Login_with_valid_user_id_and_password_successfully()
         {
-            this.Given(_ => _.I_launch_HR_Berry_Url())
+            this.Given(_ => _.I_launch_HR_Berry_application_Url())
                 .When(_ => _.I_login_with_valid_user_name_and_password())
                 .Then(_ => _.I_verify_that_user_is_in_welcome_screen())
                 .BDDfy();
